@@ -1,0 +1,83 @@
+body{
+	font-family: "Arial";
+}
+h1{
+	text-align: center;
+}
+div{
+	text-align: center;
+}
+table{
+	width:100%;
+}
+.line{
+	width:78px;
+	height:88px;
+	position:relative;
+}
+.line:after{
+	content:"";
+	position:absolute;
+	border-top:1px solid red;
+	width:200px;
+	transform:translate(-40px) rotate(67deg);
+	transform-origin: 0% 0%;
+}
+p{
+	margin: 3px;
+	font-size: 1vmin;
+}
+p.num{
+	text-align: right;
+}
+h2{
+	text-align: center;
+	font-weight: bold;
+	margin: 5px;
+	font-size: 2vmin;
+}
+img {
+	max-width: 100%;
+}
+td {
+}
+td.diatomic{
+	background-color: LightGrey;
+}
+td.halogen{
+	background-color: MediumOrchid;
+}
+td.noble{
+	background-color: MediumPurple;
+}
+td.nonmetal{
+	background-color: lightblue;
+}
+td.alkalinemetal{
+	background-color: Tomato;
+}
+td.alkalineearth{
+	background-color: Orange;
+}
+td.metaloid{
+	background-color: Blue;
+}
+td.polyatomic{
+	background-color: LightSalmon;
+}
+td.transition{
+	background-color: Yellow;
+}
+td.posttransition{
+	background-color: SeaGreen;
+}
+td.lanthanide{
+	background-color: SandyBrown;
+}
+td.actinide{
+	background-color: Peru;
+}
+td.unknown{
+	background-color: Bisque;
+}
+
